@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+.content {
+    position: relative;
+    overflow: hidden;
+}
+
+.header {
+    background-color: #222222;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    min-height: 75px;
+    gap: 53%;
+}
+
+.nav__left {
+    display: flex;
+    gap: 41px;
+}
+
+.nav__right {
+    display: flex;
+    gap: 41px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+.item__img {
+    width: 100%;
+    height: 100%;
+}
+
+.topContent {
+    background-color: #F1E4E6;
+    margin-bottom: 65px;
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    gap: 63px;
+}
+
+.center {
+    padding-left: calc(50% - 570px);
+    padding-right: calc(50% - 570px);
+}
+
+.centerWide {
+    padding-left: calc(50% - 800px);
+    padding-right: calc(50% - 800px);
+}
+
+.titleBox {
+    padding-left: 16px;
+    border-left: 12px solid #F16D7F;
+    flex-shrink: 0;
+    padding-right: 3%;
+}
+
+.title {
+    color: #222;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+
+.subtitle {
+    color: #222;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.subtitle__span {
+    color: #F16D7F;
+    font-size: 32px;
+    font-stylebot: 700;
+    line-height: normal;
+}
+
+.shopMenu {
+    background-color: #FFFFFF;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    padding-bottom: 96px;
+}
+
+.shop__item1 {
+    background: url("img/women.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 105px 0px;
+    background-position: center;
+    max-height: 100%;
+}
+
+.shop__item2 {
+    background: url("img/man.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 105px 0px;
+    background-position: center;
+    max-height: 100%;
+}
+
+.shop__item3 {
+    background: url("img/kids.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 105px 0px;
+    background-position: center;
+    max-height: 100%;
+}
+
+.shop__item4 {
+    background: url("img/accessories.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    grid-column: span 3;
+    padding: 65px 0px;
+    background-position: center;
+    max-height: 100%;
+}
+
+.text1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text2 {
+    color: #F16D7F;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+}
+
+.prod__title {
+    color: #222;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.shop__text {
+    color: #9F9F9F;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 48px;
+    text-align: center;
+}
+
+.wrapper {
+    padding: 24px 16px;
+    background-color: #F8F8F8;
+    max-width: 100%;
+}
+
+.item_title {
+    color: #000;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.item_desc {
+    color: #5D5D5D;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    margin: 16px 0px;
+}
+
+.price {
+    color: #F16D7F;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.items {
+    display: grid;
+    margin-bottom: 48px;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 30px;
+}
+
+.button {
+    margin-bottom: 60px;
+    color: #F26376;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 15px 39px;
+    background: #FFF;
+    border: 1px solid #FF6A6A;
+    margin-left: calc(50% - 111px);
+    margin-right: calc(50% - 111px);
+
+}
+
+.products {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBox {
+    max-width: 100%;
+    max-height: 100%;
+    position: relative;
+}
+
+.cartButton {
+    display: flex;
+    position: absolute;
+    border: 2px solid #FFF;
+    top: 40%;
+    left: 45%;
+    padding-top: 11px;
+    padding-bottom: 9px;
+    padding-right: 17px;
+    padding-left: 14px;
+    gap: 11px;
+}
+
+.cart {
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imgHover:hover {
+    filter: brightness(40%);
+}
+
+@media(min-width:768px) and (max-width:1024px) {
+
+    .center {
+        padding-left: 1.5%;
+        padding-right: 1.5%;
+    }
+
+    .items {
+        display: grid;
+        margin-bottom: 32px;
+        grid-template-columns: repeat(2, 47%);
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .title {
+        font-size: 44px;
+    }
+
+    .box1 {
+        padding: 2px 0px;
+    }
+
+    .button {
+        margin-bottom: 7%;
+
+    }
+}
+
+@media(min-width:320px) and (max-width:767px) {
+
+    /* .nav {
+        display: flex;
+        justify-content: space-between;
+        min-height: 75px;
+        gap: 53%;
+    }
+
+    .nav__left {
+        display: flex;
+        gap: 41px;
+    }
+
+    .nav__right {
+        display: flex;
+        gap: 41px;
+    } */
+
+    .blind {
+        display: none;
+    }
+
+    .topContent {
+        gap: 0;
+        height: 363px;
+        justify-content: center;
+        margin-bottom: 64px
+    }
+
+    /* .titleBox {
+        padding-left: 16px;
+        border-left: 12px solid #F16D7F;
+        flex-shrink: 0;
+        padding-right: 3%;
+    } */
+
+    .shopMenu {
+        grid-template-columns: 100%;
+        padding-bottom: 64px;
+    }
+
+    .itemPadding {
+        padding-top: 35%;
+        padding-bottom: 35%;
+    }
+
+    .itemPadding4 {
+        padding-top: 9%;
+        padding-bottom: 9%;
+    }
+
+    .shop__item4 {
+        grid-column: auto;
+    }
+
+    .shop__text {
+        margin-bottom: 65px;
+    }
+
+    .item_desc {
+        margin-top: 13px;
+        margin-bottom: 18px;
+    }
+
+    .center {
+        padding-left: 4%;
+        padding-right: 4%;
+    }
+
+    .items {
+        margin-bottom: 41px;
+        grid-template-columns: 100%;
+        gap: 16px;
+        padding-left: 2%;
+        padding-right: 2%;
+    }
+
+    .title {
+        font-size: 38px;
+    }
+
+    .subtitle, .subtitle__span {
+        font-size: 20px;
+    }
+
+    .box1 {
+        padding: 2px 0px;
+    }
+
+    .button {
+        margin-bottom: 85px;
+    }
+}
